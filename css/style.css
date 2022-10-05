@@ -1,0 +1,76 @@
+body {
+	background-image: linear-gradient(
+		to right,
+		#050937,
+		#003e74,
+		#0076a5,
+		#00b1c1,
+		#12ebc9
+	);
+	color: white;
+	font-family: "Abyssinica SIL", serif;
+}
+main {
+	margin-top: 50px;
+	text-align: center;
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 40px;
+}
+button {
+	padding: 12px;
+	color: white;
+	background-image: radial-gradient(
+		circle,
+		#55829c,
+		#5a84a6,
+		#6385b0,
+		#7085b8,
+		#8184bd
+	);
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+input[type="text"] {
+	background-color: white;
+	color: black;
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 3px solid #ccc;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	outline: none;
+}
+
+.liP {
+	font-size: 20px;
+}
+
+.speaker {
+	cursor: pointer;
+}
+input[type="text"]:focus {
+	border: 3px solid #555;
+}
+.intro {
+	margin-top: 40px;
+}
+.notfound {
+	font-size: xx-large;
+	text-align: center;
+	padding: 50px;
+}
+
+.mainSec {
+	padding: 20px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+	outline: none;
+	margin: 30px 30px;
+}
